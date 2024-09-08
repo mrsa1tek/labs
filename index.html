@@ -10,24 +10,6 @@
     <button id="nameBtn">Добавить</button>
     <p id="nameP"></p>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", (event) => {
-           var btn = document.getElementById('nameBtn');
-           console.log(btn);
-           btn.onclick = () => {
-                var input = document.getElementById('nameInput');
-                //console.log('Привет ' + input.value + '!');
-                var p = document.getElementById('nameP');
-                if(input.value)
-                {
-                    p.innerText = 'Привет ' + input.value + '!';
-                }
-                else
-                {
-                    p.innerText = 'Вы не ввели имя!';
-                }
-           };
-        });
-    </script>
+    <script src='/js/script1.js'></script>
 </body>
 </html>
